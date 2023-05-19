@@ -1,7 +1,6 @@
 //https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
 const goals = (laLigaGoals, copaDelReyGoals, championsLeagueGoals) => {
-    const sum = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
-    return sum;
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
 console.log(goals(1, 3, 4));
 
