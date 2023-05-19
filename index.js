@@ -6,7 +6,7 @@ console.log(goals(1, 3, 4));
 
 //https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
 const makeNegative = (num) => {
-    const negative = (num >= 0) ? (num * (-1)): num;
+    const negative = (num >= 0) ? -num : num;
     return negative;
 }
 console.log(makeNegative(-5));
