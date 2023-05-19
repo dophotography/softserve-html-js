@@ -1,12 +1,11 @@
 //https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
 const goals = (laLigaGoals, copaDelReyGoals, championsLeagueGoals) => {
-    const sum = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
-    return sum;
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
 
 //https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
 const makeNegative = (num) => {
-    const negative = (num >= 0) ? (num * (-1)): num;
+    const negative = (num >= 0) ? -num : num;
     return negative;
 }
 
